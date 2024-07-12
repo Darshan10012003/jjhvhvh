@@ -1,0 +1,1488 @@
+[
+  {
+    "pan": "ABOPS5585P",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "0",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "exstSancLmtEDFS": "2000000",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      },
+      {
+        "id": 2,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN ONLY",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      },
+      {
+        "id": 3,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAGFV5271N",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******123",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "VM Shah",
+            "exstSancLmtCC": "0",
+            "exstSancLmtTtl": "345000",
+            "exstSancLmtNfb": "0",
+            "exstSancLmtEDFS": "345000",
+            "exstSancLmtFBWC": "0",
+            "exstSancLmtTL": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 3574586
+        }
+      },
+      {
+        "id": 2,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": null,
+            "exstSancLmtNfb": null,
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AACCK5599H",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH CASA ONLY",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "5000000",
+            "exstSancLmtTtl": "6000000",
+            "exstSancLmtNfb": "7000000",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AACCM3174A",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN ONLY",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "4000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "6000000",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAACG3995M",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN ONLY",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "5000000",
+            "exstSancLmtTtl": "5000000",
+            "exstSancLmtNfb": "5000000",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAACU0589R",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "ABOPS5585W",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AACCM0306Q",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 5000000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AACCM0306Z",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN ONLY",
+          "mmobileNum": null,
+          "message": ""
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "BHNPK6065L",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******048",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "N K TRANSPORT",
+            "entityPan": "BHNPK6065L",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRAVEL SERVICES",
+            "industry": "OTHER INDUSTRY",
+            "doi": "01/01/2018",
+            "addressList": null,
+            "keyOfficiaList": [
+              
+            ],
+            "exstSancLmtCC": null,
+            "exstSancLmtTtl": null,
+            "exstSancLmtNfb": null,
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAHFE0022H",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "24/01/2021",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "BIAPL9963N",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH CASA ONLY",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Proprietorship",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "5000000",
+            "exstSancLmtTtl": "6000000",
+            "exstSancLmtNfb": "7000000",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AEMPU1910P",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAACH5598K",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AACCG0992J",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 200000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AACCG0992J",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 200000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "BTMPS9142R",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******123",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "VM Shah",
+            "exstSancLmtCC": "0",
+            "exstSancLmtTtl": "345000",
+            "exstSancLmtNfb": "0",
+            "exstSancLmtEDFS": "345000",
+            "exstSancLmtFBWC": "0",
+            "exstSancLmtTL": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 3458724
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAFCM3153Q",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "NTB",
+          "mmobileNum": null,
+          "message": "NTB Customer"
+        },
+        "validateOtpResponse": {
+          "clpUniqueReferenceNumber": "clpUniqueReferenceNumber"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 200000
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAGFV5271A",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "exstSancLmtEDFS": "5000",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAACI5950L",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAACR8532R",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAACW1259N",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": "2000000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "GMAPD8336Q",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******123",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "VM Shah",
+            "exstSancLmtCC": "1800000",
+            "exstSancLmtTtl": "1800000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      },
+      {
+        "id": 2,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": null,
+            "exstSancLmtNfb": null,
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAHPO9073A",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******123",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "VM Shah",
+            "exstSancLmtCC": "1800000",
+            "exstSancLmtTtl": "1800000",
+            "exstSancLmtNfb": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      },
+      {
+        "id": 2,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": null,
+            "exstSancLmtNfb": null,
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AAGFV5271D",
+    "body": [
+      {
+        "id": 1,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******123",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "VM Shah",
+            "exstSancLmtCC": "0",
+            "exstSancLmtTtl": "345000",
+            "exstSancLmtNfb": "0",
+            "exstSancLmtEDFS": "345000",
+            "exstSancLmtFBWC": "0",
+            "exstSancLmtTL": "0",
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      },
+      {
+        "id": 2,
+        "dedupeResponse": {
+          "customerType": "ETB WITH LOAN AND CASA",
+          "mmobileNum": "*******321",
+          "message": "OTP Sent to Customer"
+        },
+        "validateOtpResponse": {
+          "entityDetails": {
+            "entityName": "V M Shah & Co",
+            "constitution": "Partnership Firm",
+            "subIndustry": "TRADING",
+            "industry": "TRADING",
+            "doi": "01/04/1984",
+            "addressList": [
+              {
+                "addressType": "1",
+                "addressLine1": "Ground Floor, Shree Swami Samarth Appts",
+                "addressLine2": "Near Ranade Balak School 335 Shaniwar Peth",
+                "country": "India",
+                "city": "Pune",
+                "state": "27",
+                "pincode": 411030
+              },
+              {
+                "addressType": "2",
+                "addressLine1": "Ground Floor",
+                "addressLine2": "Shree Swami Samarth Appts",
+                "country": "India",
+                "city": "Shaniwar Peth",
+                "state": null,
+                "pincode": 411030
+              }
+            ],
+            "keyOfficiaList": [
+              {
+                "fName": "HATIM",
+                "midName": null,
+                "lName": "BHOSALE",
+                "pan": "AZJPB1058R",
+                "designation": "D5",
+                "gender": "M",
+                "dob": "22/05/1992",
+                "phone": null
+              }
+            ],
+            "exstSancLmtCC": "2000000",
+            "exstSancLmtTtl": null,
+            "exstSancLmtNfb": null,
+            "assocList": null
+          },
+          "message": "OTP Authenticated",
+          "otpValidYN": "Y"
+        },
+        "goNogoResponse": {
+          "clpApplicationId": 46454,
+          "isEligible": true,
+          "loanType": "PRATHAM",
+          "status": "Go",
+          "loanPricing": null,
+          "loanAmount": 0
+        }
+      }
+    ]
+  }
+]

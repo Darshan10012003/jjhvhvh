@@ -1,0 +1,247 @@
+<div class="container main-container acustom-main-container w-100">
+    <section class="cw-profile-area">
+        <div class="cw-tab-cont cw-tab-box">
+            <div class="inner-form">
+                <div class="inner-content">
+                    <div class="wrap">
+                        <button ng-click="showTable()" class="btn btn-primary">Show Table</button>
+
+                        <div ng-if="!isTableVisible">
+                            <textarea ng-model="jsonText" rows="15" style="width: 100%;"></textarea>
+                        </div>
+
+                        <div ng-if="isTableVisible">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Pan</th>
+                                        <th>Customer Type</th>
+                                        <th>Mobile Number</th>
+                                        <th>Message</th>
+                                        <th>Entity Name</th>
+                                        <th>Constitution</th>
+                                        <th>Sub Industry</th>
+                                        <th>Industry</th>
+                                        <th>Date of Incorporation</th>
+                                        <th>Addresses</th>
+                                        <th>Key Official Name</th>
+                                        <th>Key Official PAN</th>
+                                        <th>Designation</th>
+                                        <th>Gender</th>
+                                        <th>Date of Birth</th>
+                                        <th>Phone</th>
+                                        <th>Existing Sanction Limit CC</th>
+                                        <th>Existing Sanction Limit Total</th>
+                                        <th>Existing Sanction Limit NFB</th>
+                                        <th>Existing Sanction Limit EDFS</th>
+                                        <th>OTP Valid Y/N</th>
+                                        <th>Loan Amount</th>
+                                        <th>Application ID</th>
+                                        <th>Is Eligible</th>
+                                        <th>Loan Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="item in jsonData.body">
+                                        <td>{{ item.id }}</td>
+                                        <td>{{ jsonData.pan }}</td>
+                                        <td>{{ item.dedupeResponse.customerType }}</td>
+                                        <td>{{ item.dedupeResponse.mmobileNum }}</td>
+                                        <td>{{ item.dedupeResponse.message }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.entityName }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.constitution }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.subIndustry }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.industry }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.doi }}</td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="address in item.dedupeResponse.validateOtpResponse.entityDetails.addressList">
+                                                    {{ address.addressLine1 }}, {{ address.city }}, {{ address.state || 'N/A' }}, {{ address.pincode }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.fName }} {{ official.lName }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.pan }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.designation }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.gender }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.dob }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.phone || 'N/A' }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.exstSancLmtCC }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.exstSancLmtTtl }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.exstSancLmtNfb }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.exstSancLmtEDFS }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="official in item.dedupeResponse.validateOtpResponse.keyOfficiaList">
+                                                    {{ official.otpValidYN }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.loanAmount }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.clpApplicationId }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.isEligible }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.loanType }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+============================================================================================================================
+<div class="container main-container acustom-main-container w-100">
+    <section class="cw-profile-area">
+        <div class="cw-tab-cont cw-tab-box">
+            <div class="inner-form">
+                <div class="inner-content">
+                    <div class="wrap">
+                        <button ng-click="showTable()" class="btn btn-primary">Show Table</button>
+
+                        <div ng-if="!isTableVisible">
+                            <textarea ng-model="jsonText" rows="15" style="width: 100%;"></textarea>
+                        </div>
+
+                        <div ng-if="isTableVisible">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Pan</th>
+                                        <th>Customer Type</th>
+                                        <th>Mobile Number</th>
+                                        <th>Message</th>
+                                        <th>Entity Name</th>
+                                        <th>Constitution</th>
+                                        <th>Sub Industry</th>
+                                        <th>Industry</th>
+                                        <th>Date of Incorporation</th>
+                                        <th>Addresses</th>
+                                        <th>Key Official Name</th>
+                                        <th>Key Official PAN</th>
+                                        <th>Designation</th>
+                                        <th>Gender</th>
+                                        <th>Date of Birth</th>
+                                        <th>Phone</th>
+                                        <th>Existing Sanction Limit CC</th>
+                                        <th>Existing Sanction Limit Total</th>
+                                        <th>Existing Sanction Limit NFB</th>
+                                        <th>Existing Sanction Limit EDFS</th>
+                                        <th>OTP Valid Y/N</th>
+                                        <th>Loan Amount</th>
+                                        <th>Application ID</th>
+                                        <th>Is Eligible</th>
+                                        <th>Loan Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="item in jsonData.body">
+                                        <td>{{ item.id }}</td>
+                                        <td>{{ jsonData.pan }}</td>
+                                        <td>{{ item.dedupeResponse.customerType }}</td>
+                                        <td>{{ item.dedupeResponse.mmobileNum }}</td>
+                                        <td>{{ item.dedupeResponse.message }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.entityName }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.constitution }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.subIndustry }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.industry }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.entityDetails.doi }}</td>
+                                        <td>
+                                            <ul>
+                                                <li ng-repeat="address in item.dedupeResponse.validateOtpResponse.entityDetails.addressList">
+                                                    {{ address.addressLine1 }}, {{ address.city }}, {{ address.state || 'N/A' }}, {{ address.pincode }}
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].fName }} {{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].lName }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].pan }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].designation }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].gender }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].dob }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].phone || 'N/A' }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].exstSancLmtCC }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].exstSancLmtTtl }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].exstSancLmtNfb }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].exstSancLmtEDFS }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.keyOfficiaList[0].otpValidYN }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.loanAmount }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.clpApplicationId }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.isEligible }}</td>
+                                        <td>{{ item.dedupeResponse.validateOtpResponse.goNogoResponse.loanType }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
